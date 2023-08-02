@@ -1,0 +1,58 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;   
+   }
+   
+   body{
+       font-size: 100%;
+       background-color: #0A4575;
+   }
+   
+   .cabecalho{
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-around;
+       padding: 10px;
+   
+   }
+   .cabecalho-imagem {
+       height: 72px;
+   }
+   
+   .cabecalho-menu {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .cabecalho-menu-item {
+       font-family: 'Teko', sans-serif;
+       color: white;
+       font-weight: 700;
+       font-size: 36px;
+   }
+
+   .rodape{
+    padding: 32px;
+    border-top: 0.4px solid #B89607;
+}
+
+.rodape-texto{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 35.62px;
+}
+
+.rodape-imagem{
+    
+    
+}

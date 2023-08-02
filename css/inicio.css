@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 100%;
+  background-color: #0a4575;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.cabecalho-imagem {
+  height: 72px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 6rem;
+}
+
+.cabecalho-menu a:hover {
+  color: #f4d555;
+}
+
+.cabecalho-menu-item {
+  font-family: "Teko", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.conteudo {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.4px solid #b89607;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito-titulo {
+  height: 13rem;
+  font-family: "Teko", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 13rem;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: "Teko", sans-serif;
+  color: #f4d555;
+  font-weight: 700;
+  font-size: 3rem;
+  text-justify: auto;
+}
+
+.rodape {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+  gap: 5rem;
+  border-top: 0.4px solid #b89607;
+}
+
+.rodape-contatos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.rodape-texto {
+  font-family: "Teko", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+}
