@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap");
 
 *{
     margin: 0;
@@ -19,6 +19,7 @@
        align-items: center;
        justify-content: space-around;
        padding: 2rem;
+       width: 100%;
    
    }
    .cabecalho-imagem {
@@ -96,7 +97,7 @@
     font-family: "Teko", sans-serif;
     color: white;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2rem;
 }
   
 

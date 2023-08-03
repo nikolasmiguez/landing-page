@@ -19,6 +19,7 @@ body {
   align-items: center;
   justify-content: space-around;
   padding: 2rem;
+  width: 100%;
 }
 
 .cabecalho-imagem {
@@ -47,6 +48,7 @@ body {
   justify-content: center;
   align-items: center;
   border-top: 0.4px solid #b89607;
+  padding-left: 10%;
 }
 
 .conteudo-principal {
@@ -60,8 +62,10 @@ body {
   height: 13rem;
   font-family: "Teko", sans-serif;
   color: white;
+  text-shadow: 4px 4px #b89607;
   font-weight: 700;
   font-size: 13rem;
+
 }
 
 .conteudo-principal-escrito-subtitulo {
@@ -70,6 +74,7 @@ body {
   font-weight: 700;
   font-size: 3rem;
   text-justify: auto;
+
 }
 
 .rodape {
